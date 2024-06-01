@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  
+ .footer {
+    margin-bottom: auto;
+  }
+  .vector{
+    width:100%;
+    position: relative;
+    z-index: -1;
+    top: -9pc;
+  }
+  
+ 
+}

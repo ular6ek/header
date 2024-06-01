@@ -1,0 +1,90 @@
+.blues {
+  .lini {
+    margin-top: -20pc;
+  }
+  .imagesLR {
+    position: relative;
+    .left {
+      position: absolute;
+      top: -850px;
+    }
+    .right {
+      position: absolute;
+      right: -1px;
+      top: -900px;
+    }
+  }
+  .obshiy {
+    position: relative;
+    .text_01 {
+      position: absolute;
+      top: -360px;
+      left: 200px;
+      .h1 {
+        font-weight: 100;
+        font-size: 40px;
+        letter-spacing: 4px;
+        color: rgb(92, 14, 98);
+      }
+      .pk {
+        font-weight: 700;
+        font-size: 16px;
+        color: white;
+        letter-spacing: 4%;
+      }
+    }
+    .text_02 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      top: -450px;
+      right: 132px;
+      .pkk {
+        font-weight: 700;
+        font-size: 16px;
+        color: white;
+        letter-spacing: 4%;
+      }
+      .h2 {
+        font-weight: 900;
+        font-size: 25px;
+        letter-spacing: 1px;
+        color: rgb(255, 188, 81);
+      }
+      .h3 {
+        font-family: 700;
+        font-size: 14px;
+        color: rgb(255, 188, 81);
+      }
+    }
+    .chelImages {
+      display: flex;
+      .chel_1{
+        position: absolute;
+        top: -600px;
+        right: 360px;
+      }
+      .chel_2{
+        position: absolute;
+        top: -750px;
+        right: 150px;
+      }
+      .chel_3{
+        position: absolute;
+        top: -450px;
+        right: 70px;
+      }
+      .chel_4{
+        position:absolute;
+        top: -250px;
+        right: 300px;
+      }
+      .chel_5{
+        position: absolute;
+        top: -250px;
+        right: 10px;
+      }
+    }
+  }
+}

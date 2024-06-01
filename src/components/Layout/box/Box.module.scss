@@ -1,0 +1,30 @@
+.box{
+    position: relative;
+    .boxs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        position: absolute;
+        width: 1000px;
+        height: 182px;
+        left: 205px;
+        top: -100px;
+        border-radius: 3px;
+        background: rgb(255, 255, 255);
+        .h1{
+            font-weight: 100;
+            font-size: 40px;
+            letter-spacing: 4%;
+            color: rgb(89, 21, 103);
+        }
+        .btn{
+            font-weight: 700;
+            font-size: 14px;
+            color: white;
+            border-radius: 1px;
+            padding: 10px 45px;
+            background-color: rgb(255, 188, 81);
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.header {
+  padding-block: 4pc;
+  padding-left: 5pc;
+  background-color: rgba(128, 128, 128, 0);
+ 
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav {
+      background-color: rgba(127, 255, 212, 0);
+
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 33px;
+
+        li {
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+ 

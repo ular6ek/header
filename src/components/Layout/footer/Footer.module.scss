@@ -1,0 +1,55 @@
+.footer {
+  width: 100%;
+  height: 682px;
+  background: rgb(33, 9, 51);
+  position: relative;
+  z-index: -99;
+  .footer_2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px;
+    top: 15pc;
+    left: 0;
+    right: 0;
+
+    .imgBlock {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      margin-top: 110px;
+      .mod {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+      .h1 {
+        color: rgb(133, 120, 133);
+        text-align: center;
+      }
+    }
+  }
+
+  .nav {
+    background-color: rgba(127, 255, 212, 0);
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 150px;
+
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .organis{
+    color: rgb(133, 120, 133);
+  }
+
+}

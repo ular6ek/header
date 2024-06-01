@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1390px;
+  margin: 0 auto;
+  background-color: rgb(247, 243, 250);
+  z-index: -99;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+

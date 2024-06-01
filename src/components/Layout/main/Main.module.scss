@@ -1,0 +1,39 @@
+
+.main{
+   display: flex;
+   flex-direction: column;
+  
+  .text {
+    position: relative;
+    color: red;
+    font-size: 25px;
+    bottom: 38pc;
+    left: 5pc;
+  color: rgb(240, 248, 255);
+  
+  .h1{
+    font-size: 35px;
+    font-weight: lighter;
+  }
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 62pc;
+  left: 20pc;
+  .image1 {
+    position:absolute;
+    top: 1px;
+    left: 4pc;
+  }
+  .image2 {
+    position: absolute;
+    right:18.9pc;
+    top: 11px;
+    
+  }
+}
+}
